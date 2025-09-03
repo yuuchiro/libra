@@ -1,0 +1,290 @@
+[
+  {
+    "id": 10293,
+    "title": "1984",
+    "author": "George Orwell",
+    "genres": ["dystopian", "political fiction"],
+    "description": "A chilling vision of a totalitarian state where surveillance is absolute, individuality is crushed, and truth is manipulated. Orwell's masterpiece warns of the dangers of unchecked power, propaganda, and the fragility of freedom. Through Winston Smith’s struggle, the novel explores the resilience of human spirit under oppressive regimes.",
+    "isAvailable": false,
+    "returnDate": "2025-09-10"
+  },
+  {
+    "id": 38472,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genres": ["romance", "classic", "social commentary"],
+    "description": "A timeless romantic comedy about the spirited Elizabeth Bennet and her evolving relationship with the proud Mr. Darcy. Austen’s novel combines wit, sharp social observations, and memorable characters. It remains a beloved story of love, misjudgments, and personal growth in the face of rigid societal expectations.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 57281,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genres": ["classic", "drama"],
+    "description": "Set in the racially charged South of the 1930s, this novel follows Scout Finch as she witnesses injustice and learns about empathy through her father, Atticus. With warmth and humor, Harper Lee's story explores morality, prejudice, and the enduring fight for justice. It remains a landmark in American literature.",
+    "isAvailable": false,
+    "returnDate": "2025-09-15"
+  },
+  {
+    "id": 91845,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genres": ["classic", "tragedy"],
+    "description": "A portrait of the Jazz Age, wealth, and the American dream, Fitzgerald's novel follows Jay Gatsby's obsession with Daisy Buchanan. Through Nick Carraway's eyes, the story examines love, illusions, and disillusionment in a glamorous but hollow society. Its lyrical style captures both extravagance and emptiness of the 1920s.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 34018,
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "genres": ["adventure", "classic"],
+    "description": "A seafaring epic chronicling Captain Ahab’s relentless pursuit of the white whale. Melville blends thrilling adventure with philosophical reflection, weaving themes of fate, obsession, and humanity’s struggle with nature. This dense but rewarding classic is both a gripping tale of revenge and a profound meditation on existence.",
+    "isAvailable": false,
+    "returnDate": "2025-09-18"
+  },
+  {
+    "id": 66420,
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "genres": ["psychological", "classic"],
+    "description": "This Russian masterpiece delves into the mind of Raskolnikov, a young man who commits murder believing he is above moral law. As guilt consumes him, Dostoevsky explores themes of morality, redemption, and human conscience. Intense and deeply philosophical, it remains one of literature’s greatest psychological novels.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 27839,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "genres": ["historical", "epic"],
+    "description": "A sweeping saga of Russian aristocracy during the Napoleonic Wars, blending personal stories with historical events. Tolstoy’s monumental work examines love, fate, politics, and the meaning of life. With hundreds of characters and grand scope, it remains a defining epic of human experience and history.",
+    "isAvailable": false,
+    "returnDate": "2025-09-22"
+  },
+  {
+    "id": 43912,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "genres": ["dystopian", "science fiction"],
+    "description": "A provocative vision of a future society driven by technological control, genetic engineering, and shallow pleasures. Huxley imagines a world without pain or conflict but at the cost of individuality and freedom. The novel raises enduring questions about progress, conformity, and what makes us truly human.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 55271,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "genres": ["romance", "gothic", "classic"],
+    "description": "This gothic romance follows the orphaned Jane as she struggles with hardship, morality, and independence before finding love at Thornfield Hall. Combining passion, mystery, and strong feminist undertones, Brontë crafts a story of resilience and self-respect. Jane’s voice continues to resonate with readers across generations.",
+    "isAvailable": false,
+    "returnDate": "2025-09-09"
+  },
+  {
+    "id": 82046,
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "genres": ["gothic", "romance", "tragedy"],
+    "description": "A haunting tale of passion, revenge, and the destructive power of obsession set on the Yorkshire moors. The doomed love between Heathcliff and Catherine Earnshaw drives the story’s intensity. With its dark atmosphere and complex characters, Emily Brontë’s only novel remains one of the most powerful in English literature.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 43192,
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "genres": ["gothic", "science fiction", "horror"],
+    "description": "A groundbreaking tale of science, ambition, and responsibility. Victor Frankenstein creates life, but the consequences spiral out of control as his creation seeks acceptance. Shelley’s novel is both a thrilling gothic story and a meditation on human nature, hubris, and the ethical limits of scientific discovery.",
+    "isAvailable": false,
+    "returnDate": "2025-09-12"
+  },
+  {
+    "id": 21784,
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "genres": ["gothic", "horror"],
+    "description": "A chilling gothic horror novel that introduced Count Dracula to the world. Told through journals and letters, the story follows a battle between humans and the ancient vampire. Stoker’s novel blends suspense, fear, and folklore, shaping the modern image of vampires and influencing countless adaptations in literature and film.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 86103,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genres": ["coming-of-age", "classic"],
+    "description": "Narrated by the disenchanted Holden Caulfield, this novel captures teenage alienation and rebellion. Wandering New York City, Holden struggles with hypocrisy, innocence, and his own turmoil. Salinger’s timeless work resonates with readers who have questioned society, identity, and the painful process of growing up.",
+    "isAvailable": false,
+    "returnDate": "2025-09-19"
+  },
+  {
+    "id": 66501,
+    "title": "The Lord of the Rings",
+    "author": "J. R. R. Tolkien",
+    "genres": ["fantasy", "epic", "adventure"],
+    "description": "A legendary epic of good versus evil, friendship, and sacrifice. Frodo Baggins embarks on a perilous journey to destroy the One Ring, facing immense dangers. Tolkien’s richly detailed world of Middle-earth set the standard for modern fantasy. Its themes of hope, courage, and unity remain universally cherished.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 99124,
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "genres": ["romance", "classic", "tragedy"],
+    "description": "A sweeping story of love, infidelity, and society in 19th-century Russia. Anna’s passionate affair with Vronsky challenges societal norms and leads to tragic consequences. Tolstoy contrasts her fate with other characters’ quests for meaning, creating a profound meditation on morality, happiness, and the human condition.",
+    "isAvailable": false,
+    "returnDate": "2025-09-14"
+  },
+  {
+    "id": 20384,
+    "title": "The Odyssey",
+    "author": "Homer",
+    "genres": ["epic", "mythology", "adventure"],
+    "description": "An ancient Greek epic poem chronicling the long and perilous journey of Odysseus returning home after the Trojan War. Facing gods, monsters, and temptation, Odysseus embodies resilience and cleverness. This foundational work of Western literature blends adventure, myth, and reflection on heroism and human endurance.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 37841,
+    "title": "The Iliad",
+    "author": "Homer",
+    "genres": ["epic", "mythology", "war"],
+    "description": "Set during the Trojan War, this ancient epic captures the wrath of Achilles, the struggles of warriors, and the intervention of gods. Both brutal and poetic, The Iliad explores honor, glory, mortality, and human emotion in times of conflict. It remains one of the most influential texts in history.",
+    "isAvailable": false,
+    "returnDate": "2025-09-21"
+  },
+  {
+    "id": 49203,
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "genres": ["satire", "classic", "adventure"],
+    "description": "A comic and poignant tale of an aging nobleman who believes he is a knight, setting out with his loyal squire Sancho Panza. Tilting at windmills and seeking glory, Don Quixote embodies both folly and idealism. Cervantes’ masterpiece shaped modern literature with its blend of humor, pathos, and social commentary.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 92847,
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "genres": ["historical", "drama", "classic"],
+    "description": "A monumental tale of justice, love, and redemption set against revolutionary France. Following the ex-convict Jean Valjean and his pursuit by Inspector Javert, Hugo’s novel weaves personal struggles with social issues. It explores law, morality, and human compassion, leaving an indelible mark on world literature.",
+    "isAvailable": false,
+    "returnDate": "2025-09-13"
+  },
+  {
+    "id": 55318,
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "genres": ["philosophical", "psychological", "classic"],
+    "description": "A profound exploration of faith, morality, and free will through the lives of three brothers torn between passion, reason, and spirituality. Dostoevsky’s final novel examines guilt, justice, and redemption. Rich in philosophical depth, it remains one of the greatest works of world literature and Russian fiction.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 81239,
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "genres": ["magical realism", "classic"],
+    "description": "This landmark novel tells the multi-generational story of the Buendía family in the town of Macondo. Blending magical realism with history and myth, Márquez explores love, loneliness, destiny, and memory. Lyrical and imaginative, it is considered one of the most influential novels of the 20th century.",
+    "isAvailable": false,
+    "returnDate": "2025-09-17"
+  },
+  {
+    "id": 14422,
+    "title": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "genres": ["epic", "poetry", "allegory"],
+    "description": "A journey through Hell, Purgatory, and Paradise guided by Virgil and Beatrice. Dante’s poetic vision explores sin, redemption, and divine justice. With vivid imagery and deep symbolism, this medieval masterpiece offers a sweeping reflection on morality, faith, and the human soul’s path toward salvation.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 62137,
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "genres": ["historical", "drama", "classic"],
+    "description": "Chronicling the struggles of the Joad family during the Great Depression, this novel portrays migration, poverty, and resilience. Steinbeck captures both human suffering and the enduring hope for dignity. With social and political resonance, it stands as a powerful critique of injustice and a tribute to perseverance.",
+    "isAvailable": false,
+    "returnDate": "2025-09-16"
+  },
+  {
+    "id": 93417,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "genres": ["dystopian", "science fiction"],
+    "description": "In a future where books are banned and burned, fireman Guy Montag begins to question his role and society’s conformity. Bradbury’s novel examines censorship, mass media, and the power of ideas. Both thrilling and prophetic, it remains a stark warning about the fragility of free thought and expression.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 73819,
+    "title": "The Stranger",
+    "author": "Albert Camus",
+    "genres": ["philosophical", "existential"],
+    "description": "This existential classic tells the story of Meursault, an indifferent man who commits an inexplicable crime. Camus uses his detached perspective to explore absurdity, freedom, and the meaning of life. Both unsettling and profound, it challenges readers to confront the strangeness and emptiness of existence.",
+    "isAvailable": false,
+    "returnDate": "2025-09-11"
+  },
+  {
+    "id": 49381,
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "genres": ["gothic", "philosophical", "classic"],
+    "description": "Wilde’s only novel tells of Dorian Gray, who remains youthful while his portrait bears the marks of corruption. Exploring vanity, morality, and decadence, the story critiques society’s obsession with beauty and pleasure. With wit and dark themes, it remains a provocative and stylish work of gothic literature.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 20147,
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "genres": ["classic", "adventure"],
+    "description": "A short but powerful tale of an aging fisherman’s epic struggle against a giant marlin. Hemingway’s sparse style highlights resilience, dignity, and humanity’s eternal fight with nature. This Nobel Prize-winning story reflects courage in defeat and remains one of the author’s most enduring works.",
+    "isAvailable": false,
+    "returnDate": "2025-09-20"
+  },
+  {
+    "id": 74629,
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "genres": ["classic", "romance", "tragedy"],
+    "description": "A groundbreaking realist novel about Emma Bovary, a woman trapped in provincial life and yearning for passion. Her discontent and affairs lead to inevitable tragedy. Flaubert’s precise style and psychological depth created a landmark in literature, examining dreams, desires, and the consequences of chasing illusions.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 82934,
+    "title": "The Sound and the Fury",
+    "author": "William Faulkner",
+    "genres": ["modernist", "classic"],
+    "description": "An experimental masterpiece told through multiple perspectives, exploring the decline of the Compson family in the American South. Faulkner’s stream-of-consciousness style captures fractured time, memory, and identity. Though challenging, it remains one of the most important modernist works in American literature.",
+    "isAvailable": false,
+    "returnDate": "2025-09-23"
+  },
+  {
+    "id": 61820,
+    "title": "The Sun Also Rises",
+    "author": "Ernest Hemingway",
+    "genres": ["modernist", "classic", "romance"],
+    "description": "A story of disillusioned expatriates in post-World War I Europe. Following Jake Barnes and Lady Brett Ashley, the novel captures themes of love, loss, and searching for meaning. With its restrained style and symbolic depth, it defined the “Lost Generation” and remains a defining modernist work.",
+    "isAvailable": true,
+    "returnDate": null
+  },
+  {
+    "id": 27485,
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "genres": ["classic", "coming-of-age"],
+    "description": "This Victorian novel follows Pip, an orphan who aspires to rise in society after receiving mysterious fortune. Dickens weaves a story of ambition, love, and redemption with memorable characters. It explores class, morality, and the true meaning of wealth and happiness, cementing its place as a timeless classic.",
+    "isAvailable": false,
+    "returnDate": "2025-09-24"
+  },
+  {
+    "id": 38520,
+    "title": "Oliver Twist",
+    "author": "Charles Dickens",
+    "genres": ["classic", "social commentary"],
+    "description": "The story of a poor orphan navigating the harsh realities of 19th-century London. Dickens exposes poverty, crime, and injustice while crafting a moving tale of innocence and resilience. Featuring iconic characters like Fagin and the Artful Dodger, the novel combines social critique with",
+    "isAvailable": true,
+    "returnDate": null
+  }
+]
