@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-const useBookList = () => {
-  const [booksList, setBooksList] = useState(null);
+const useBooks = () => {
+  const [booksList, setBooksList] = useState([]);
 
   useEffect(() => {
     const fetchBooks = async () => {
@@ -17,4 +17,4 @@ const useBookList = () => {
 
   return booksList;
 };
-export default useBookList;
+export default useBooks;

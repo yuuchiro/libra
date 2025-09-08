@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Book from "./Book";
-import useBookList from "../hooks/useBookList";
+import useBooks from "../hooks/useBooks";
 
 const BookList = () => {
-  const fetchedList = useBookList();
-  const [books, setBooks] = useState([]);
+  const fetchedList = useBooks();
+  let books = [];
 
   const [filters, setFilters] = useState({
     searchPhrase: "",
@@ -12,37 +12,22 @@ const BookList = () => {
     sortBy: "title",
   });
 
-  useEffect(() => {
-    if (fetchedList) {
-      const newBooks = sortList(fetchedList, filters.sortBy);
-      setBooks(newBooks);
-    }
-  }, [fetchedList]);
-
-  useEffect(() => {
-    filterList();
-  }, [filters]);
-
   const filterList = () => {
-    let newBooks = [];
     if (!fetchedList) return;
     if (filters.isCbxChecked) {
-      newBooks = fetchedList.filter(
+      books = fetchedList.filter(
         (book) =>
           book.title.toLowerCase().includes(filters.searchPhrase) ||
           (book.author.toLowerCase().includes(filters.searchPhrase) &&
             book.isAvailable === true)
       );
     } else {
-      newBooks = fetchedList.filter(
+      books = fetchedList.filter(
         (book) =>
           book.title.toLowerCase().includes(filters.searchPhrase) ||
           book.author.toLowerCase().includes(filters.searchPhrase)
       );
     }
-
-    newBooks = sortList(newBooks, filters.sortBy);
-    setBooks(newBooks);
   };
 
   const sortList = (list, sortCondition) => {
@@ -61,8 +46,11 @@ const BookList = () => {
     return list;
   };
 
+  books = sortList(fetchedList, filters.sortBy);
+  filterList();
+
   const resetListHandler = () => {
-    setBooks(fetchedList);
+    books = fetchedList;
     setFilters({ searchPhrase: "", isCbxChecked: false, sortBy: "title" });
   };
 
