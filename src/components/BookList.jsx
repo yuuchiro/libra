@@ -1,33 +1,32 @@
-import { useState } from "react";
 import Book from "./Book";
 import useBooks from "../hooks/useBooks";
 
-const BookList = () => {
-  const fetchedList = useBooks();
+const BookList = ({
+  resetListHandler,
+  sortButtonsToggle,
+  showAvailableToggle,
+  filters,
+}) => {
   let books = [];
 
-  const [filters, setFilters] = useState({
-    searchPhrase: "",
-    isCbxChecked: false,
-    sortBy: "title",
-  });
+  const fetchedList = useBooks();
 
   const filterList = () => {
     if (!fetchedList) return;
-    if (filters.isCbxChecked) {
-      books = fetchedList.filter(
-        (book) =>
-          book.title.toLowerCase().includes(filters.searchPhrase) ||
-          (book.author.toLowerCase().includes(filters.searchPhrase) &&
-            book.isAvailable === true)
-      );
-    } else {
-      books = fetchedList.filter(
+    let tempList = fetchedList;
+    if (filters.searchPhrase.length > 0) {
+      tempList = tempList.filter(
         (book) =>
           book.title.toLowerCase().includes(filters.searchPhrase) ||
           book.author.toLowerCase().includes(filters.searchPhrase)
       );
     }
+
+    if (filters.showAvailavleOnly) {
+      tempList = tempList.filter((book) => book.isAvailable);
+    }
+
+    books = tempList;
   };
 
   const sortList = (list, sortCondition) => {
@@ -49,58 +48,57 @@ const BookList = () => {
   books = sortList(fetchedList, filters.sortBy);
   filterList();
 
-  const resetListHandler = () => {
-    books = fetchedList;
-    setFilters({ searchPhrase: "", isCbxChecked: false, sortBy: "title" });
-  };
-
   return (
-    <div>
-      <form>
-        <input
-          type="text"
-          value={filters.searchPhrase}
-          onChange={(ev) =>
-            setFilters((prev) => ({
-              ...prev,
-              searchPhrase: ev.target.value.toLowerCase().trim(),
-            }))
-          }
-        />
-        <label htmlFor="sortSelect">Sort by:</label>
-        <select
-          id="sortSelect"
-          value={filters.sortBy}
-          onChange={(ev) =>
-            setFilters((prev) => ({ ...prev, sortBy: ev.target.value }))
-          }
-        >
-          <option value="title">Title</option>
-          <option value="author">Author</option>
-        </select>
-        <label htmlFor="showAvailableOnlyCheckbox">Show only available</label>
-        <input
-          type="checkbox"
-          id="showAvailableOnlyCheckbox"
-          checked={filters.isCbxChecked}
-          onChange={() => {
-            setFilters((prev) => ({
-              ...prev,
-              isCbxChecked: !prev.isCbxChecked,
-            }));
-          }}
-        />
+    <div className="bg-indigo-100">
+      <form className="sticky top-0 z-10 flex items-center justify-center py-3 bg-indigo-200 rounded-b-3xl">
+        <label htmlFor="sortSelect" className="mx-2 text-indigo-500">
+          Sort by
+        </label>
+        <div className="mx-2">
+          <button
+            className={`${
+              filters.sortBy === "title"
+                ? "bg-indigo-500 text-white"
+                : "text-indigo-500"
+            } w-20 py-1  rounded-l-4xl border border-indigo-500 cursor-pointer font-medium transition duration-150`}
+            value={"title"}
+            onClick={sortButtonsToggle}
+          >
+            Title
+          </button>
+          <button
+            className={`${
+              filters.sortBy === "author"
+                ? "bg-indigo-500 text-white"
+                : "text-indigo-500"
+            } w-20 py-1 rounded-r-4xl border border-indigo-500 cursor-pointer font-medium transition duration-150`}
+            value={"author"}
+            onClick={sortButtonsToggle}
+          >
+            Author
+          </button>
+        </div>
         <button
-          onClick={(ev) => {
-            ev.preventDefault();
-            resetListHandler();
-          }}
+          className={`${
+            filters.showAvailavleOnly
+              ? "bg-indigo-500 text-white"
+              : "bg-transparent text-indigo-500"
+          } rounded-4xl font-medium w-45 py-1 mx-2 cursor-pointer border border-indigo-500 transition duration-150`}
+          onClick={showAvailableToggle}
+        >
+          Show only available
+        </button>
+        <button
+          className="w-20 py-1 mx-2 font-medium text-white bg-indigo-500 border border-indigo-500 cursor-pointer rounded-4xl"
+          onClick={resetListHandler}
         >
           Reset
         </button>
       </form>
-      <p>Books found: {books ? books.length : "0"}</p>
-      <ul>
+      <p className="my-5 text-center text-indigo-500">
+        found {books ? books.length : "0"} books
+      </p>
+      <ul className="grid place-items-center">
         {!books ? (
           <h1>Rendering list</h1>
         ) : (
